@@ -1,0 +1,9 @@
+{
+  "proxy": "commerce.gastro.lan",
+  "rewriteRules": [
+    {
+      "match": ".commerce.gastro.lan",
+      "replace": ""
+    }
+  ]
+}
