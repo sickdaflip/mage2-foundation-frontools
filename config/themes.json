@@ -1,0 +1,23 @@
+{
+  "alpaca": {
+    "src": "vendor/snowdog/theme-frontend-alpaca",
+    "dest": "pub/static/frontend/Snowdog/alpaca",
+    "locale": ["de_DE"],
+    "ignore": [
+      "**/node_modules/**",
+      "**/Snowdog_Components/docs/**",
+      "**/Snowdog_Components/build/**"
+    ]
+  },
+  "foundation": {
+    "parent": "alpaca",
+    "src": "vendor/flipdev/foundation",
+    "dest": "pub/static/frontend/Flipdev/foundation",
+    "locale": ["de_DE"],
+    "ignore": [
+      "**/node_modules/**",
+      "**/Snowdog_Components/docs/**",
+      "**/Snowdog_Components/build/**"
+    ]
+  }
+}

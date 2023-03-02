@@ -1,0 +1,16 @@
+{
+  "name": "flipdev/module-foundation-frontools",
+  "type": "magento2-component",
+  "version": "1.0.0",
+  "require": {
+    "snowdog/frontools": "^1.11.0"
+  },
+  "extra": {
+    "map": [
+      [
+        "config",
+        "dev/tools/frontools/config"
+      ]
+    ]
+  }
+}
